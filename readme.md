@@ -23,8 +23,8 @@ Pour exécuter le script, il suffit de l'exécuter dans votre environnement Pyth
 
 On vous demandera d'entrer votre choix d'opération (ajouter ou supprimer des moniteurs) et votre choix de méthode d'entrée (manuel ou fichier CSV).
 
-- Si vous choisissez d'ajouter des moniteurs à partir d'un fichier CSV, assurez-vous que le fichier CSV contient un nom de domaine par ligne, sans ligne d'en-tête.
-- Si vous choisissez d'ajouter des moniteurs manuellement, on vous demandera d'entrer chaque nom de domaine individuellement. Entrez ``quit`` lorsque vous avez terminé.
+- Si vous choisissez d'ajouter des moniteurs à partir d'un fichier CSV, assurez-vous que le fichier CSV contient un nom de domaine suivi du protocole de sonde qui va être utilisé : ``google.fr,PING ``
+- Si vous choisissez d'ajouter des moniteurs manuellement, on vous demandera d'entrer chaque nom de domaine individuellement de la manière suivante : : ``google.fr,PING ``. Entrez ``quit`` lorsque vous avez terminé.
 - Si vous choisissez de supprimer des moniteurs, tous les moniteurs existants seront supprimés sans autre confirmation.
 Note
 
