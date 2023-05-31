@@ -1,36 +1,39 @@
-README
+# KumAutomation
 
-Description
+Ce script Python est conçu pour interagir avec l'API Uptime Kuma. Il vous permet d'ajouter ou de supprimer des moniteurs HTTP pour des noms de domaine, soit manuellement, soit à partir d'un fichier CSV.
 
-This Python script is designed to interact with the Uptime Kuma API. It allows you to add or delete HTTP monitors for domain names either manually or from a CSV file.
 
-Prerequisites
+## Pré-requis
 
-To use this script, you will need:
+- Python 3.6 ou une version supérieure installée sur votre machine.
+- Le package Python _uptime_kuma_api_ installé.
+- F
 
-Python 3.6 or higher installed on your machine.
-The uptime_kuma_api Python package installed. You can install it using pip:
-Copy code
-pip install uptime_kuma_api
-Access to an instance of Uptime Kuma, with the URL and login credentials available.
-Usage
+### Installation
 
-Import the UptimeKumaApi and MonitorType from the uptime_kuma_api package.
-The script contains several functions:
-add_monitors_from_csv(api, filename): This function reads a CSV file and adds HTTP monitors for each domain name listed in the file.
-add_monitors_manually(api): This function allows you to manually input domain names for which HTTP monitors will be added.
-delete_all_monitors(api): This function deletes all existing monitors.
-main(): This function runs the script, prompting you to choose between adding or deleting monitors, and between manually inputting domain names or reading them from a CSV file.
-To run the script, simply execute it in your Python environment. You will be prompted to enter your choice of operation (add or delete monitors) and your choice of input method (manual or CSV file).
-Copy code
-python your_script_name.py
-If you choose to add monitors from a CSV file, make sure the CSV file contains one domain name per line, with no header row.
-If you choose to add monitors manually, you will be prompted to enter each domain name individually. Enter 'quit' when you are finished.
-If you choose to delete monitors, all existing monitors will be deleted without further confirmation.
-Note
+Les étapes pour installer votre programme....
 
-Please replace the api_url, username, and password in the main() function with your own Uptime Kuma URL and login credentials.
+Dites ce qu'il faut faire...
 
-Disclaimer
+Installation du package uptime_kuma_api : Executez la commande ``pip install uptime_kuma_api`` pour commencer ensuite [...]
 
-Use this script responsibly. Adding or deleting monitors can affect the operation of your Uptime Kuma instance. Always ensure you have the necessary permissions and that you understand the implications of your actions.
+
+## Démarrage
+
+Dites comment faire pour lancer votre projet
+
+## Fonctionnement
+
+Importez ``UptimeKumaApi`` et ``MonitorType`` du package ``uptime_kuma_api``.
+Le script contient plusieurs fonctions :
+- ``add_monitors_from_csv(api, filename):`` Cette fonction lit un fichier CSV et ajoute des moniteurs HTTP pour chaque nom de domaine listé dans le fichier.
+- ``add_monitors_manually(api)`` : Cette fonction vous permet d'entrer manuellement des noms de domaine pour lesquels des moniteurs HTTP seront ajoutés.
+- ``delete_all_monitors(api)``: Cette fonction supprime tous les moniteurs existants.
+- ``main()``: Cette fonction exécute le script, vous invitant à choisir entre l'ajout ou la suppression de moniteurs, et entre l'entrée manuelle des noms de domaine ou leur lecture à partir d'un fichier CSV.
+
+## Auteurs
+
+* **Paul CAZALS** _alias_ [@pcazals](https://github.com/pcazals)
+
+
+
