@@ -39,6 +39,10 @@ Le script contient plusieurs fonctions :
 - ``delete_all_monitors(api)``: Cette fonction supprime tous les moniteurs existants.
 - ``main()``: Cette fonction exécute le script, vous invitant à choisir entre l'ajout ou la suppression de moniteurs, et entre l'entrée manuelle des noms de domaine ou leur lecture à partir d'un fichier CSV.
 
+## UML Diagram ##
+
+![alt text](https://mermaid.live/view#pako:eNp9UdtqwzAM_RXjpxTyBX4bbDAYg8Gyt0AQsZIJfMOWO0LIv8_p0rXpyvxkyeeiY82y9xqlkr2BlB4Jxgi2dUKcavERmCy-ZAsPgea1X47xI7kqJ4wOLCqROJIbaxEK48tHfe4cNjxo3VnviH2seAqF8fpTNaWoxV4kR3PLH5HP_FQdlDCUeHuKaP0Rf9Vp771cglw5bjGem-btBmSB3Px36NQN0duuT8cKAqn9p9RiIIPXGcqE5PiejAWXwZjpjsyOpNEgY1egl9z_URZZS4uxjK_LJk8JWsmfaLGVqlw1DpANt7J1KxQy-_fJ9VJxzFjLHDQwbrvfN5_06i7VACbh8g23UsJG)
+
 ## Auteurs
 
 * **Paul CAZALS** _alias_ [@pcazals](https://github.com/pcazals)
