@@ -7,22 +7,30 @@ Ce script Python est conçu pour interagir avec l'API Uptime Kuma. Il vous perme
 
 - Python 3.6 ou une version supérieure installée sur votre machine.
 - Le package Python _uptime_kuma_api_ installé.
-- F
+- Une instance d'Uptime Kuma online 
 
 ### Installation
 
-Les étapes pour installer votre programme....
+- Installation du package uptime_kuma_api : Executez la commande ``pip install uptime_kuma_api`` [...]
 
-Dites ce qu'il faut faire...
+Si vous n'avez pas d'instance Uptime Kuma : 
+- Executez la commande ``docker run -d --restart=always -p 3001:3001 -v uptime-kuma:/app/data --name uptime-kuma louislam/uptime-kuma:1``
 
-Installation du package uptime_kuma_api : Executez la commande ``pip install uptime_kuma_api`` pour commencer ensuite [...]
+
+## Utilisation
+
+Pour exécuter le script, il suffit de l'exécuter dans votre environnement Python. 
+- Executez la commande ``python3 KumaAutomation.py``
+
+On vous demandera d'entrer votre choix d'opération (ajouter ou supprimer des moniteurs) et votre choix de méthode d'entrée (manuel ou fichier CSV).
+
+- Si vous choisissez d'ajouter des moniteurs à partir d'un fichier CSV, assurez-vous que le fichier CSV contient un nom de domaine par ligne, sans ligne d'en-tête.
+- Si vous choisissez d'ajouter des moniteurs manuellement, on vous demandera d'entrer chaque nom de domaine individuellement. Entrez ``quit`` lorsque vous avez terminé.
+- Si vous choisissez de supprimer des moniteurs, tous les moniteurs existants seront supprimés sans autre confirmation.
+Note
 
 
-## Démarrage
-
-Dites comment faire pour lancer votre projet
-
-## Fonctionnement
+## Fonctionnement du code 
 
 Importez ``UptimeKumaApi`` et ``MonitorType`` du package ``uptime_kuma_api``.
 Le script contient plusieurs fonctions :
