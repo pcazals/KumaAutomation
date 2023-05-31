@@ -10,7 +10,7 @@ Ce script Python est conçu pour interagir avec l'API Uptime Kuma. Il vous perme
 
 ### Installation
 
-- Installation du package uptime_kuma_api : Executez la commande ``pip install uptime_kuma_api`` [...]
+- Installation du package uptime_kuma_api : Executez la commande ``pip install uptime_kuma_api``
 
 Si vous n'avez pas d'instance Uptime Kuma : 
 - Executez la commande ``docker run -d --restart=always -p 3001:3001 -v uptime-kuma:/app/data --name uptime-kuma louislam/uptime-kuma:1`` 
