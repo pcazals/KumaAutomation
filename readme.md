@@ -40,7 +40,7 @@ Le script contient plusieurs fonctions :
 
 ## UML Diagram ##
 
-![alt text](https://github.com/pcazals/[reponame]/blob/[branch]/image.jpg?raw=true)
+![alt text](https://github.com/pcazals/KumaAutomation/blob/main/ressource/UML_KumAutomation.png)
 
 ## Auteurs
 
