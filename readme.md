@@ -2,7 +2,6 @@
 
 Ce script Python est conçu pour interagir avec l'API Uptime Kuma. Il vous permet d'ajouter ou de supprimer des moniteurs HTTP pour des noms de domaine, soit manuellement, soit à partir d'un fichier CSV.
 
-
 ## Pré-requis
 
 - Python 3.6 ou une version supérieure installée sur votre machine.
@@ -41,7 +40,7 @@ Le script contient plusieurs fonctions :
 
 ## UML Diagram ##
 
-![alt text](https://mermaid.live/view#pako:eNp9UdtqwzAM_RXjpxTyBX4bbDAYg8Gyt0AQsZIJfMOWO0LIv8_p0rXpyvxkyeeiY82y9xqlkr2BlB4Jxgi2dUKcavERmCy-ZAsPgea1X47xI7kqJ4wOLCqROJIbaxEK48tHfe4cNjxo3VnviH2seAqF8fpTNaWoxV4kR3PLH5HP_FQdlDCUeHuKaP0Rf9Vp771cglw5bjGem-btBmSB3Px36NQN0duuT8cKAqn9p9RiIIPXGcqE5PiejAWXwZjpjsyOpNEgY1egl9z_URZZS4uxjK_LJk8JWsmfaLGVqlw1DpANt7J1KxQy-_fJ9VJxzFjLHDQwbrvfN5_06i7VACbh8g23UsJG)
+![alt text](https://github.com/pcazals/[reponame]/blob/[branch]/image.jpg?raw=true)
 
 ## Auteurs
 
