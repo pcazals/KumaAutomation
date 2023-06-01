@@ -1,6 +1,6 @@
 # KumAutomation
 
-Ce script Python est conçu pour interagir avec l'API Uptime Kuma. Il vous permet d'ajouter ou de supprimer des moniteurs HTTP ou PING pour des noms de domaine, soit manuellement, soit à partir d'un fichier CSV.
+Ce script Python est conçu pour interagir avec l'API Uptime Kuma. Il vous permet d'ajouter ou de supprimer des sondes HTTP ou PING pour des noms de domaine, soit manuellement, soit à partir d'un fichier CSV.
 
 ## Pré-requis
 
